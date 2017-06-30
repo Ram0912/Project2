@@ -28,6 +28,7 @@ public class DocumentDAO {
 		session.save(document);
 	}
 
+	@SuppressWarnings("unchecked")
 	@Transactional
 	public List<Document> list() {
 		Session session = sessionFactory.getCurrentSession();

@@ -2,14 +2,12 @@ package com.spring.project2.controller;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.sql.Blob;
 import java.sql.SQLException;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.io.IOUtils;
-import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
